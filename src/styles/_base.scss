@@ -1,0 +1,40 @@
+@import "../../node_modules/normalize-scss/sass/normalize";
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&family=Ubuntu:wght@400;500;700&display=swap");
+
+////// Media Breakpoints //////
+$desktop-breakpoint: "1440px";
+$mobile-breakpoint: "375px";
+
+//////// site color variables ///////
+
+// - Primary Colors
+$light-red: hsl(356, 100%, 66%);
+$super-light-red: hsl(355, 100%, 74%);
+$very-dark-blue: hsl(208, 49%, 24%);
+
+// - Neutral Colors
+$white: hsl(0, 0%, 100%);
+$gray-blue: hsl(240, 2%, 79%);
+$very-dark-blue: hsl(207, 13%, 34%);
+$dark-black-blue: hsl(240, 10%, 16%);
+
+// - Gradiant Colors
+$super-red-gradiant-color: hsl(13, 100%, 72%);
+$light-red-gradiant-color: hsl(353, 100%, 62%);
+$header-gradiant: linear-gradient(
+	to right,
+	$super-red-gradiant-color,
+	$light-red-gradiant-color
+);
+
+// Typography
+
+//////// Base App Settings ///////
+
+* {
+	margin: 0;
+	box-sizing: border-box;
+	font-size: 16px;
+	font-family: "Overpass", sans-serif;
+}

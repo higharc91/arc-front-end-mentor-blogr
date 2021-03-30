@@ -1,0 +1,32 @@
+.header {
+	background: $header-gradiant;
+	position: relative;
+	border-radius: 0 0 0 125px;
+	height: 650px;
+	.container {
+		z-index: 1;
+
+		.header__heading-container {
+			margin: 150px auto;
+			display: flex;
+			flex-direction: column;
+			z-index: 1;
+		}
+	}
+}
+
+.header__overlay {
+	display: block;
+	position: absolute;
+	overflow: hidden;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+
+	img {
+		height: 450%;
+		transform: translate(250px, -950px);
+		z-index: -1;
+	}
+}

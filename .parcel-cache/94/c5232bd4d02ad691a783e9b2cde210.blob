@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!-- displays site properly based on user's device -->
+
+		<link rel="icon" type="image/png" sizes="32x32" href="f14209191f0f7f97b51d8d660de7d901">
+
+		<title>Frontend Mentor | [Blogr]</title>
+
+		<!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+		<link rel="stylesheet" href="6be81c8e1533ca67fc29757a2b6b6873">
+	</head>
+	<body>
+		<div class="container">
+			<nav class="nav-menu">
+				<ul class="nav-menu__item">
+					Product
+				</ul>
+				<ul class="nav-menu__item">
+					Company
+				</ul>
+				<ul class="nav-menu__item">
+					Connect
+				</ul>
+			</nav>
+		</div>
+	</body>
+</html>
+<script src="4ad0979c663ae1096c31c630282fb70e"></script>

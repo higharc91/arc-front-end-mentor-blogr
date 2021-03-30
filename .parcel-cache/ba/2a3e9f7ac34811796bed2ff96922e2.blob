@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!-- displays site properly based on user's device -->
+
+		<link rel="icon" type="image/png" sizes="32x32" href="f14209191f0f7f97b51d8d660de7d901">
+
+		<title>Frontend Mentor | [Blogr]</title>
+
+		<!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+		<link rel="stylesheet" href="6be81c8e1533ca67fc29757a2b6b6873">
+	</head>
+	<body>
+		<div class="header">
+			<div class="container">
+				<div class="header-row">
+					<nav class="nav-menu">
+						<img alt="blogr-logo" src="6489226b7efc940f18a98fe2e98536f7" class="nav-menu__logo">
+						<ul class="nav-menu__item">
+							Product
+						</ul>
+						<ul class="nav-menu__item">
+							Company
+						</ul>
+						<ul class="nav-menu__item">
+							Connect
+						</ul>
+					</nav>
+					<div>
+						<button class="button__clear" type="button">Login</button>
+						<button class="button__solid" type="button">Sign Up</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
+<script src="4ad0979c663ae1096c31c630282fb70e"></script>

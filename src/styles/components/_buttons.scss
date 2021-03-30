@@ -1,0 +1,18 @@
+.button__solid {
+	border: none;
+	background: $white;
+	border-radius: 25px;
+	color: $light-red;
+	cursor: pointer;
+	letter-spacing: 0.8px;
+	font-weight: 500;
+	font-family: "Ubuntu";
+	padding: 16px 2px;
+	width: 15ch;
+}
+
+.button__clear {
+	@extend .button__solid;
+	background: none;
+	color: $white;
+}

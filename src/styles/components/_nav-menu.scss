@@ -1,0 +1,33 @@
+.nav-menu {
+	align-items: center;
+	color: $white;
+	display: flex;
+	z-index: 1;
+	.nav-menu__nav-list {
+		display: flex;
+		width: 100%;
+
+		.nav-menu__item {
+			align-items: center;
+			cursor: pointer;
+			display: flex;
+			margin-right: 25px;
+			img {
+				margin-left: 5px;
+			}
+
+			a {
+				color: $white;
+				text-decoration: none;
+			}
+		}
+	}
+}
+
+.nav-menu__buttons {
+	z-index: 1;
+}
+
+.nav-menu__logo {
+	margin-right: 2rem;
+}

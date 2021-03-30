@@ -1,0 +1,12 @@
+.container {
+	display: flex;
+	flex-direction: column;
+	margin: 0 10%;
+}
+
+.header-row {
+	align-items: center;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 4%;
+}
