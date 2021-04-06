@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!-- displays site properly based on user's device -->
+
+		<link rel="icon" type="image/png" sizes="32x32" href="f14209191f0f7f97b51d8d660de7d901">
+
+		<title>Frontend Mentor | [Blogr]</title>
+
+		<!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+		<link rel="stylesheet" href="6be81c8e1533ca67fc29757a2b6b6873">
+	</head>
+	<body>
+		<div class="header">
+			<div class="header__overlay">
+				<img src="3aae58f45234346b6cb551b5e944e45a">
+			</div>
+			<div class="container">
+				<!-- Header & Nav -->
+				<div class="header-row">
+					<nav class="nav-menu">
+						<img alt="blogr-logo" src="6489226b7efc940f18a98fe2e98536f7" class="nav-menu__logo">
+						<ul class="nav-menu__nav-list">
+							<li class="nav-menu__item">
+								<a href="/product">Product</a>
+								<img src="78b8a3f3d943dc3219dd8df5311f1dfe" alt="down-arrow">
+							</li>
+							<li class="nav-menu__item">
+								<a href="/company">Company</a>
+								<img src="78b8a3f3d943dc3219dd8df5311f1dfe" alt="down-arrow">
+							</li>
+							<li class="nav-menu__item">
+								<a href="/connect">Connect</a>
+								<img src="78b8a3f3d943dc3219dd8df5311f1dfe" alt="down-arrow">
+							</li>
+						</ul>
+					</nav>
+					<div class="nav-menu__buttons">
+						<button class="button--clear" type="button">Login</button>
+						<button class="button--solid" type="button">Sign Up</button>
+					</div>
+				</div>
+
+				<!-- Header Heading Text -->
+				<div class="header__heading-container">
+					<h1 class="header__tag-line">A modern publishing platform</h1>
+					<div class="header__button-row">
+						<button class="button--solid" type="button">Start for free</button>
+						<button class="button--outline" type="button">Learn more</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
+<script src="4ad0979c663ae1096c31c630282fb70e"></script>

@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&family=Ubuntu:wght@400;500;700&display=swap");
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: "Overpass", sans-serif;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 10%;
+}
+.header-row {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 4%;
+}
+.header {
+  background: linear-gradient(to right, #ff8f70, #ff3d54);
+  position: relative;
+  border-radius: 0 0 0 125px;
+  height: 650px;
+}
+.header .container {
+  z-index: 1;
+}
+.header .container .header__heading-container {
+  align-items: center;
+  margin: 75px auto;
+  display: flex;
+  flex-direction: column;
+  z-index: 1;
+}
+.header .container .header__heading-container .header__tag-line {
+  color: white;
+  font-size: 4rem;
+}
+.header .container .header__heading-container .header__sub-tag {
+  color: #bfbfbf white;
+  font-size: 1.2rem;
+}
+.header .container .header__heading-container .header__button-row {
+  display: flex;
+}
+.header .container .header__heading-container .header__button-row button + button {
+  margin-left: 45px;
+}
+.header__overlay {
+  display: block;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+.header__overlay img {
+  height: 450%;
+  transform: translate(250px, -950px);
+  z-index: -1;
+}
+.nav-menu {
+  align-items: center;
+  color: white;
+  display: flex;
+  z-index: 1;
+}
+.nav-menu .nav-menu__nav-list {
+  display: flex;
+  width: 100%;
+}
+.nav-menu .nav-menu__nav-list .nav-menu__item {
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  margin-right: 25px;
+}
+.nav-menu .nav-menu__nav-list .nav-menu__item img {
+  margin-left: 5px;
+}
+.nav-menu .nav-menu__nav-list .nav-menu__item a {
+  color: white;
+  text-decoration: none;
+}
+.nav-menu__buttons {
+  z-index: 1;
+}
+.nav-menu__logo {
+  margin-right: 2rem;
+}
+.button--solid, .button--clear, .button--outline {
+  border: none;
+  background: white;
+  border-radius: 25px;
+  color: #ff525d;
+  cursor: pointer;
+  letter-spacing: 0.8px;
+  font-weight: 500;
+  font-family: "Ubuntu";
+  padding: 16px 2px;
+  width: 15ch;
+}
+.button--outline {
+  border: 1px solid white;
+  background: transparent;
+  color: white;
+}
+.button--clear {
+  background: none;
+  color: white;
+}
+/*# sourceMappingURL=index.HASH_REF_868db392ad3a7e4f971e7e80517f8cbb.css.map */

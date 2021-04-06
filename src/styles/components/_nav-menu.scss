@@ -21,11 +21,18 @@
 				text-decoration: none;
 			}
 		}
+
+		@media screen and (max-width: $mobile-breakpoint) {
+			display: none;
+		}
 	}
 }
 
 .nav-menu__buttons {
 	z-index: 1;
+	@media screen and (max-width: $mobile-breakpoint) {
+		display: none;
+	}
 }
 
 .nav-menu__logo {

@@ -1,4 +1,4 @@
-.button__solid {
+.button--solid {
 	border: none;
 	background: $white;
 	border-radius: 25px;
@@ -11,8 +11,15 @@
 	width: 15ch;
 }
 
-.button__clear {
-	@extend .button__solid;
+.button--outline {
+	@extend .button--solid;
+	border: 1px solid $white;
+	background: transparent;
+	color: $white;
+}
+
+.button--clear {
+	@extend .button--solid;
 	background: none;
 	color: $white;
 }

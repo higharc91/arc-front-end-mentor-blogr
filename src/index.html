@@ -20,7 +20,9 @@
 	<body>
 		<div class="header">
 			<div class="header__overlay">
-				<img src="./images/bg-pattern-intro.svg" />
+				<div class="header__image-header-overlay">
+					<img src="./images/bg-pattern-intro.svg" />
+				</div>
 			</div>
 			<div class="container">
 				<!-- Header & Nav -->
@@ -47,14 +49,26 @@
 						</ul>
 					</nav>
 					<div class="nav-menu__buttons">
-						<button class="button__clear" type="button">Login</button>
-						<button class="button__solid" type="button">Sign Up</button>
+						<button class="button--clear" type="button">Login</button>
+						<button class="button--solid" type="button">Sign Up</button>
 					</div>
+					<img
+						class="header__hamburger"
+						alt="menu"
+						src="./images/icon-hamburger.svg"
+					/>
 				</div>
 
 				<!-- Header Heading Text -->
 				<div class="header__heading-container">
-					<h1>A modern publishing platform</h1>
+					<h1 class="header__tag-line">A modern publishing platform</h1>
+					<h4 class="header__sub-tag">
+						Grow your audiance and build your online brand.
+					</h4>
+					<div class="header__button-row">
+						<button class="button--solid" type="button">Start for free</button>
+						<button class="button--outline" type="button">Learn more</button>
+					</div>
 				</div>
 			</div>
 		</div>
